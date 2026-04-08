@@ -1,0 +1,359 @@
+{
+  "Real_Estate_Data_Analytics.xlsx": {
+    "1. Valuation & Pricing": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - VALUATION & PRICING"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 9
+    },
+    "2. Market Research": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - MARKET RESEARCH & DEMAND ANALYSIS"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 9
+    },
+    "3. Sales & Marketing": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - SALES & MARKETING ANALYTICS"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 11
+    },
+    "4. Investment & Financial": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - INVESTMENT & FINANCIAL ANALYTICS"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 9
+    },
+    "5. Property Management": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - PROPERTY MANAGEMENT & OPERATIONS"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 9
+    },
+    "6. Development & Construction": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - DEVELOPMENT & CONSTRUCTION"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 9
+    },
+    "7. Location Intelligence": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - LOCATION INTELLIGENCE & GIS"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 9
+    },
+    "8. Customer Analytics": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - CUSTOMER ANALYTICS & CRM"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 9
+    },
+    "9. Regulatory & Compliance": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - REGULATORY & COMPLIANCE"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 7
+    },
+    "10. Predictive Analytics": {
+      "headers": [
+        "DATA ANALYTICS IN REAL ESTATE - PREDICTIVE ANALYTICS & ADVANCED"
+      ],
+      "row1": [
+        "Data Type",
+        "Sources",
+        "Analysis Method",
+        "Derived Insights",
+        "Business Impact"
+      ],
+      "totalRows": 9
+    },
+    "11. Data Sources India": {
+      "headers": [
+        "DATA SOURCES FOR REAL ESTATE ANALYTICS IN INDIA"
+      ],
+      "row1": [
+        "Category",
+        "Key Sources",
+        "Data Available"
+      ],
+      "totalRows": 17
+    }
+  },
+  "construction_demo_data.xlsx": {
+    "Summary": {
+      "headers": [
+        "Metric",
+        "Value"
+      ],
+      "row1": [
+        "Total Projects",
+        5
+      ],
+      "totalRows": 17
+    },
+    "Vendor_Purchases": {
+      "headers": [
+        "Purchase_ID",
+        "Date",
+        "Project",
+        "Vendor",
+        "Material",
+        "Unit",
+        "Quantity",
+        "Rate_Per_Unit",
+        "Total_Amount",
+        "Payment_Status",
+        "Delivery_Status"
+      ],
+      "row1": [
+        "PO-10000",
+        45376,
+        "Green Valley",
+        "SAIL Steel",
+        "AAC Blocks",
+        "Piece",
+        3676,
+        55.77,
+        205009,
+        "Partial",
+        "Delivered"
+      ],
+      "totalRows": 500
+    },
+    "Broker_Performance": {
+      "headers": [
+        "Broker_Name",
+        "Total_Leads",
+        "Site_Visits",
+        "Bookings",
+        "Cancellations",
+        "Successful_Sales",
+        "Lead_to_Visit_%",
+        "Visit_to_Booking_%",
+        "Cancellation_Rate_%",
+        "Avg_Unit_Value",
+        "Total_Commission_Paid",
+        "Commission_on_Cancelled",
+        "Commission_Rate"
+      ],
+      "row1": [
+        "Sharma Properties",
+        242,
+        69,
+        6,
+        2,
+        4,
+        28.5,
+        8.7,
+        33.3,
+        5921613,
+        710594,
+        236865,
+        "2%"
+      ],
+      "totalRows": 15
+    },
+    "Material_Inventory": {
+      "headers": [
+        "Project",
+        "Material",
+        "Unit",
+        "Purchased_Qty",
+        "Used_Qty",
+        "Idle_Qty",
+        "Idle_%",
+        "Rate_Per_Unit",
+        "Idle_Stock_Value",
+        "Days_Since_Purchase",
+        "Storage_Location",
+        "Condition"
+      ],
+      "row1": [
+        "Skyline Heights",
+        "OPC 53 Cement",
+        "Bag",
+        14538,
+        13216,
+        1322,
+        9.1,
+        380,
+        502360,
+        16,
+        "Site Store",
+        "Good"
+      ],
+      "totalRows": 50
+    },
+    "Project_Costs": {
+      "headers": [
+        "Project",
+        "Cost_Category",
+        "Budgeted_Amount",
+        "Actual_Amount",
+        "Variance",
+        "Variance_%",
+        "Status"
+      ],
+      "row1": [
+        "Skyline Heights",
+        "Materials",
+        135000000,
+        172269972,
+        37269972,
+        27.6,
+        "Over Budget"
+      ],
+      "totalRows": 35
+    },
+    "Contractor_Performance": {
+      "headers": [
+        "Contract_ID",
+        "Project",
+        "Contractor",
+        "Work_Type",
+        "Contract_Value",
+        "Planned_Days",
+        "Actual_Days",
+        "Delay_Days",
+        "Delay_%",
+        "Quality_Score",
+        "Rework_Needed",
+        "Completion_Status"
+      ],
+      "row1": [
+        "CON-2000",
+        "Palm Residency",
+        "Mehta Civil",
+        "Electrical",
+        2587180,
+        44,
+        47,
+        3,
+        6.8,
+        3.5,
+        "Yes",
+        "Completed"
+      ],
+      "totalRows": 80
+    },
+    "Sales_Bookings": {
+      "headers": [
+        "Booking_ID",
+        "Date",
+        "Project",
+        "Unit_Type",
+        "Unit_No",
+        "Unit_Value",
+        "Source",
+        "Broker_Name",
+        "Current_Payment_Stage",
+        "Amount_Received",
+        "Status",
+        "Cancellation_Reason"
+      ],
+      "row1": [
+        "BK-5000",
+        45367,
+        "Green Valley",
+        "2 BHK",
+        "C-1400",
+        5527955,
+        "Exhibition",
+        "N/A",
+        "10% Payment",
+        829193,
+        "Active",
+        "N/A"
+      ],
+      "totalRows": 200
+    },
+    "Marketing_Spend": {
+      "headers": [
+        "Month",
+        "Channel",
+        "Spend",
+        "Leads_Generated",
+        "Site_Visits",
+        "Conversions",
+        "Cost_Per_Lead",
+        "Cost_Per_Conversion",
+        "Conversion_Rate_%"
+      ],
+      "row1": [
+        "2024-01",
+        "Digital Ads",
+        489808,
+        495,
+        275,
+        7,
+        990,
+        69973,
+        1.41
+      ],
+      "totalRows": 84
+    }
+  }
+}

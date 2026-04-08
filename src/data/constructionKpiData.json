@@ -1,0 +1,70 @@
+{
+  "monthlyBudgetGraph": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "datasets": {
+      "monthlyConstruction": [1450000, 1680000, 2150000, 2480000, 2850000, 2320000, 1180000, 980000, 1950000, 2780000, 3150000, 2650000],
+      "monthlyConstructionCosts": [145000, 168000, 215000, 248000, 285000, 232000, 118000, 98000, 195000, 278000, 315000, 265000],
+      "monthlyDesignCosts": [1650000, 1900000, 2420000, 2800000, 3200000, 2620000, 1350000, 1120000, 2200000, 3120000, 3540000, 2980000]
+    }
+  },
+  "projectBudgetMeter": {
+    "min": 0,
+    "max": 3500000,
+    "current": 2485000,
+    "label": "₹24,85,000"
+  },
+  "milestones": [
+    { "id": "1", "name": "Site Clearing & Soil Testing", "budget": 280000, "actual": 295000, "manager": "Rajesh Sharma", "status": "warning" },
+    { "id": "2", "name": "Foundation & Piling Work", "budget": 520000, "actual": 578000, "manager": "Priya Mehta", "status": "danger" },
+    { "id": "3", "name": "RCC Structural Framework", "budget": 680000, "actual": 745000, "manager": "Amit Patel", "status": "danger" },
+    { "id": "4", "name": "Brickwork & Masonry", "budget": 310000, "actual": 298000, "manager": "Sunita Rao", "status": "success" },
+    { "id": "5", "name": "MEP Rough-in (Electrical & Plumbing)", "budget": 420000, "actual": 410000, "manager": "Vikram Singh", "status": "success" },
+    { "id": "6", "name": "Plastering & Waterproofing", "budget": 350000, "actual": 385000, "manager": "Neha Gupta", "status": "warning" },
+    { "id": "7", "name": "Finishing & Interior Work", "budget": 480000, "actual": 520000, "manager": "Arjun Reddy", "status": "danger" }
+  ],
+  "percentageOfTotalBudget": {
+    "labor": 32.0,
+    "material": 48.0,
+    "equipment": 20.0
+  },
+  "monthlyScheduleVariance": {
+    "labels": ["January", "February", "March", "April", "May", "June"],
+    "planned": [8.0, 18.0, 32.0, 48.0, 62.0, 75.0],
+    "actual": [6.5, 15.0, 27.0, 42.0, 55.0, 68.0]
+  },
+  "costOverruns": {
+    "labels": ["Q1 FY26", "Q2 FY26", "Q3 FY26", "Q4 FY26"],
+    "planned": [850000, 1700000, 2550000, 3400000],
+    "actual": [920000, 1890000, 2780000, 3650000],
+    "variance": [-70000, -190000, -230000, -250000]
+  },
+  "kpiDefinitions": [
+    { "kpi": "Cost Performance Index (CPI)", "definition": "Ratio of earned value to actual cost; below 1.0 indicates over-budget spending", "target": "1.00", "current": "0.91", "status": "At Risk", "trend": "Declining" },
+    { "kpi": "Schedule Performance Index (SPI)", "definition": "Ratio of earned value to planned value; below 1.0 indicates schedule delay", "target": "1.00", "current": "0.87", "status": "Critical", "trend": "Declining" },
+    { "kpi": "On-time Task Completion", "definition": "Percentage of construction tasks completed within scheduled deadline", "target": "92%", "current": "78%", "status": "At Risk", "trend": "Stable" },
+    { "kpi": "Labor Productivity Rate", "definition": "Output per labor-hour measured against industry benchmark of ₹485/hr", "target": "₹485/hr", "current": "₹412/hr", "status": "At Risk", "trend": "Improving" },
+    { "kpi": "Safety Incident Rate (LTIFR)", "definition": "Lost Time Injury Frequency Rate per million man-hours worked on site", "target": "0.5", "current": "1.2", "status": "Critical", "trend": "Declining" }
+  ],
+  "progressStatus": {
+    "projectName": "Aravali Business Park, Phase-II, Gurugram",
+    "percentageComplete": 68,
+    "tasks": [
+      { "id": 1, "name": "Site mobilization & survey", "start": "01/08", "duration": 5 },
+      { "id": 2, "name": "Excavation & earthwork", "start": "01/15", "duration": 12 },
+      { "id": 3, "name": "Pile foundation & raft", "start": "02/01", "duration": 18 },
+      { "id": 4, "name": "Column & beam casting", "start": "02/20", "duration": 22 },
+      { "id": 5, "name": "Slab casting (G+4 floors)", "start": "03/15", "duration": 30 },
+      { "id": 6, "name": "Brickwork & block masonry", "start": "04/18", "duration": 20 },
+      { "id": 7, "name": "MEP rough-in installation", "start": "05/10", "duration": 25 },
+      { "id": 8, "name": "External plastering", "start": "06/08", "duration": 15 },
+      { "id": 9, "name": "Waterproofing & insulation", "start": "06/25", "duration": 10 },
+      { "id": 10, "name": "Elevator & staircase work", "start": "07/10", "duration": 18 },
+      { "id": 11, "name": "Internal finishing & painting", "start": "08/01", "duration": 22 },
+      { "id": 12, "name": "Handover & commissioning", "start": "09/01", "duration": 8 }
+    ],
+    "taskStatus": { "Complete": 42, "In progress": 28, "Not started": 18, "Overdue": 8, "On hold": 4 },
+    "taskPriority": { "High": 55, "Medium": 30, "Low": 15 },
+    "pendingItems": { "labels": ["Design Approvals", "RFIs", "Change Orders"], "data": [4, 7, 3] },
+    "budget": { "Planned": 92500, "Actual": 78200 }
+  }
+}

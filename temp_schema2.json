@@ -1,0 +1,93 @@
+{
+  "vendorPurchases": [
+    "Purchase_ID",
+    "Date",
+    "Project",
+    "Vendor",
+    "Material",
+    "Unit",
+    "Quantity",
+    "Rate_Per_Unit",
+    "Total_Amount",
+    "Payment_Status",
+    "Delivery_Status"
+  ],
+  "brokerPerformance": [
+    "Broker_Name",
+    "Total_Leads",
+    "Site_Visits",
+    "Bookings",
+    "Cancellations",
+    "Successful_Sales",
+    "Lead_to_Visit_%",
+    "Visit_to_Booking_%",
+    "Cancellation_Rate_%",
+    "Avg_Unit_Value",
+    "Total_Commission_Paid",
+    "Commission_on_Cancelled",
+    "Commission_Rate"
+  ],
+  "materialInventory": [
+    "Project",
+    "Material",
+    "Unit",
+    "Purchased_Qty",
+    "Used_Qty",
+    "Idle_Qty",
+    "Idle_%",
+    "Rate_Per_Unit",
+    "Idle_Stock_Value",
+    "Days_Since_Purchase",
+    "Storage_Location",
+    "Condition"
+  ],
+  "projectCosts": [
+    "Project",
+    "Cost_Category",
+    "Budgeted_Amount",
+    "Actual_Amount",
+    "Variance",
+    "Variance_%",
+    "Status"
+  ],
+  "contractorPerformance": [
+    "Contract_ID",
+    "Project",
+    "Contractor",
+    "Work_Type",
+    "Contract_Value",
+    "Planned_Days",
+    "Actual_Days",
+    "Delay_Days",
+    "Delay_%",
+    "Quality_Score",
+    "Rework_Needed",
+    "Completion_Status"
+  ],
+  "salesBookings": [
+    "Booking_ID",
+    "Date",
+    "Project",
+    "Unit_Type",
+    "Unit_No",
+    "Unit_Value",
+    "Source",
+    "Broker_Name",
+    "Current_Payment_Stage",
+    "Amount_Received",
+    "Status",
+    "Cancellation_Reason"
+  ],
+  "marketingSpend": [
+    "Month",
+    "Channel",
+    "Spend",
+    "Leads_Generated",
+    "Site_Visits",
+    "Conversions",
+    "Cost_Per_Lead",
+    "Cost_Per_Conversion",
+    "Conversion_Rate_%"
+  ],
+  "realEstateAnalytics": []
+}

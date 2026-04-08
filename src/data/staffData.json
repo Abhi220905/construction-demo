@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Sharma",
+    "role": "Project Director",
+    "dept": "Operations",
+    "experience": "18 Years",
+    "email": "rajesh.s@algovista.com",
+    "status": "On-Site",
+    "avatar": "RS"
+  },
+  {
+    "id": 2,
+    "name": "Priya Mehta",
+    "role": "Chief Civil Engineer",
+    "dept": "Engineering",
+    "experience": "12 Years",
+    "email": "priya.m@algovista.com",
+    "status": "Available",
+    "avatar": "PM"
+  },
+  {
+    "id": 3,
+    "name": "Amit Patel",
+    "role": "Structural Lead",
+    "dept": "Engineering",
+    "experience": "10 Years",
+    "email": "amit.p@algovista.com",
+    "status": "On-Site",
+    "avatar": "AP"
+  },
+  {
+    "id": 4,
+    "name": "Sunita Rao",
+    "role": "Quality Assurance",
+    "dept": "Quality",
+    "experience": "8 Years",
+    "email": "sunita.r@algovista.com",
+    "status": "Available",
+    "avatar": "SR"
+  },
+  {
+    "id": 5,
+    "name": "Vikram Singh",
+    "role": "MEP Coordinator",
+    "dept": "MEP",
+    "experience": "14 Years",
+    "email": "vikram.s@algovista.com",
+    "status": "On-Site",
+    "avatar": "VS"
+  },
+  {
+    "id": 6,
+    "name": "Neha Gupta",
+    "role": "Procurement Manager",
+    "dept": "Supply Chain",
+    "experience": "9 Years",
+    "email": "neha.g@algovista.com",
+    "status": "On-Leave",
+    "avatar": "NG"
+  },
+  {
+    "id": 7,
+    "name": "Arjun Reddy",
+    "role": "Site Safety Officer",
+    "dept": "HSE",
+    "experience": "7 Years",
+    "email": "arjun.r@algovista.com",
+    "status": "On-Site",
+    "avatar": "AR"
+  },
+  {
+    "id": 8,
+    "name": "Karan Malhotra",
+    "role": "Finance Controller",
+    "dept": "Finance",
+    "experience": "15 Years",
+    "email": "karan.m@algovista.com",
+    "status": "Available",
+    "avatar": "KM"
+  },
+  {
+    "id": 9,
+    "name": "Sana Sheikh",
+    "role": "Design Lead",
+    "dept": "Architecture",
+    "experience": "11 Years",
+    "email": "sana.s@algovista.com",
+    "status": "Available",
+    "avatar": "SS"
+  },
+  {
+    "id": 10,
+    "name": "Rahul Verma",
+    "role": "Marketing Manager",
+    "dept": "Sales",
+    "experience": "10 Years",
+    "email": "rahul.v@algovista.com",
+    "status": "On-Site",
+    "avatar": "RV"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "totalInflow": 28450000,
+    "totalOutflow": 22180000,
+    "netCashFlow": 6270000,
+    "openingBalance": 12500000,
+    "closingBalance": 18770000,
+    "burnRate": "₹36.9L/month",
+    "runway": "5.1 months"
+  },
+  "monthlyFlow": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "inflow":  [1850000, 2100000, 2680000, 3100000, 3560000, 2900000, 1950000, 1620000, 2440000, 3470000, 3900000, 3310000],
+    "outflow": [1450000, 1680000, 2150000, 2480000, 2850000, 2320000, 1780000, 1480000, 1950000, 2780000, 3150000, 2650000]
+  },
+  "operational": {
+    "categories": ["Material Procurement", "Labor & Wages", "Equipment Hire", "Site Overheads", "Subcontractor Payments", "Permits & Fees"],
+    "amounts":    [10560000, 7040000, 4400000, 1980000, 3520000, 680000],
+    "budget":     [9800000, 6720000, 4200000, 1650000, 3200000, 620000]
+  },
+  "quarterlyBreakdown": [
+    { "quarter": "Q1 FY26", "inflow": 6630000, "outflow": 5280000, "net": 1350000, "cumulative": 13850000 },
+    { "quarter": "Q2 FY26", "inflow": 9560000, "outflow": 7650000, "net": 1910000, "cumulative": 15760000 },
+    { "quarter": "Q3 FY26", "inflow": 6010000, "outflow": 5210000, "net": 800000,  "cumulative": 16560000 },
+    { "quarter": "Q4 FY26", "inflow": 10680000,"outflow": 8580000, "net": 2100000, "cumulative": 18770000 }
+  ],
+  "realMarketBenchmarks": {
+    "labels": ["Gurugram Avg", "NCR Avg", "Mumbai MMR", "Pune", "Industry Std"],
+    "costPerSqFt":   [3850, 3200, 5800, 2900, 3400],
+    "revenuePerSqFt":[6200, 4800, 9500, 4200, 5100]
+  },
+  "paymentSchedule": [
+    { "id": "PMT-001", "vendor": "Tata Steel",       "amount": 2480000, "due": "15 Apr 2026", "status": "Paid" },
+    { "id": "PMT-002", "vendor": "UltraTech Cement", "amount": 1850000, "due": "22 Apr 2026", "status": "Pending" },
+    { "id": "PMT-003", "vendor": "JSW Steel",        "amount": 3120000, "due": "05 May 2026", "status": "Upcoming" },
+    { "id": "PMT-004", "vendor": "ACC Cement",        "amount": 920000,  "due": "12 May 2026", "status": "Upcoming" },
+    { "id": "PMT-005", "vendor": "Dalmia Cement",     "amount": 1560000, "due": "28 May 2026", "status": "Overdue" },
+    { "id": "PMT-006", "vendor": "Ambuja Cement",     "amount": 780000,  "due": "01 Jun 2026", "status": "Upcoming" },
+    { "id": "PMT-007", "vendor": "SAIL Steel",        "amount": 2200000, "due": "10 Mar 2026", "status": "Paid" },
+    { "id": "PMT-008", "vendor": "Shree Cement",      "amount": 1340000, "due": "18 Mar 2026", "status": "Paid" }
+  ]
+}
