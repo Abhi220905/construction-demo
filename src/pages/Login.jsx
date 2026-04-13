@@ -45,7 +45,7 @@ function Login({ onLogin }) {
           overflow: 'hidden',
           boxShadow: '0 30px 80px rgba(15, 23, 42, 0.35)',
         }}
-      >
+      > 
         <div
           style={{
             flex: 1,
