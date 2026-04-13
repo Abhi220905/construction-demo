@@ -20,9 +20,34 @@ import Equipment from './pages/Equipment';
 import SubcontractorPayments from './pages/SubcontractorPayments';
 import Geography from './pages/Geography';
 import ProjectKpi from './components/Dashboard/ProjectKpi';
+import Login from './pages/Login';
 
 function App() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(() => window.localStorage.getItem('isAuth') === 'true');
+
+  const handleLogin = (username, password) => {
+    const valid = username === 'demo' && password === 'demo123';
+    if (valid) {
+      window.localStorage.setItem('isAuth', 'true');
+      setIsAuthenticated(true);
+    }
+    return valid;
+  };
+
+  const handleLogout = () => {
+    window.localStorage.removeItem('isAuth');
+    setIsAuthenticated(false);
+  };
+
+  if (!isAuthenticated) {
+    return (
+      <Routes>
+        <Route path="/login" element={<Login onLogin={handleLogin} />} />
+        <Route path="*" element={<Navigate to="/login" replace />} />
+      </Routes>
+    );
+  }
 
   return (
     <div className="app-container" style={{ display: 'flex', minHeight: '100vh', background: 'var(--surface-primary)' }}>
@@ -44,6 +69,7 @@ function App() {
         <TopNavbar 
           collapsed={sidebarCollapsed} 
           onToggle={() => setSidebarCollapsed(!sidebarCollapsed)} 
+          onLogout={handleLogout}
         />
         <div 
           className="p-0 flex-grow-1"

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiMenu, FiRefreshCw, FiLogOut } from 'react-icons/fi';
 
-const TopNavbar = ({ collapsed, onToggle }) => {
+const TopNavbar = ({ collapsed, onToggle, onLogout }) => {
   const handleRefresh = () => {
     // Standard Satyamev refresh behavior: reload current page to sync with latest data
     window.location.reload();
@@ -49,7 +49,7 @@ const TopNavbar = ({ collapsed, onToggle }) => {
         {/* User badge + logout */}
         <div style={styles.userBadge}>
           <div style={styles.avatar}>A</div>
-          <button style={styles.logoutBtn} title="Sign out">
+          <button style={styles.logoutBtn} title="Sign out" onClick={onLogout}>
             <FiLogOut size={16} />
           </button>
         </div>
